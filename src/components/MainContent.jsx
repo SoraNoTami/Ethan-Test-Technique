@@ -10,14 +10,14 @@ function MainContent() {
 
   return (
     <div id="main-content">
-      <div className="row space-between">
+      <div className="row space-between top-content">
         <h3>Remaining Task</h3>
-        <div>
-          <input placeholder="Search anything ..." />
+        <div className="search-bar">
+          <input className="search" placeholder="Search anything ..." />
           <SearchIcon />
         </div>
       </div>
-      <div className="row space-between baseline">
+      <div className="row space-between center top-content">
         <div>
           <h2>Active Tasks</h2>
           <p>You can edit all the stuff as you wish</p>
@@ -26,6 +26,7 @@ function MainContent() {
           <div className="select">
             <Calendar />
             <select value={value1} onChange={changeValue1}>
+            <option value="Today">Today</option>
               <option value="Yesterday">Yesterday</option>
             </select>
           </div>
@@ -33,12 +34,13 @@ function MainContent() {
             <Filter />
             <select value={value2} onChange={changeValue2}>
               <option value="Done">Done</option>
+              <option value="NotDone">NotDone</option>
             </select>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div>
+      <div>
+        <div className="row space-between">
           <div>
             <h3>Milestones</h3>
             <div></div>
@@ -49,9 +51,9 @@ function MainContent() {
           </div>
         </div>
         <div>
-          <div>
+          <div className="row space-between">
             <h3>Tasks</h3>
-            <div className="row">
+            <div className="row center">
               <p>See All Tasks</p>
               <AngleRight />
             </div>
