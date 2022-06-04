@@ -3,6 +3,7 @@ import { AngleRight } from "./icons/AngleRight";
 import { Calendar } from "./icons/Calendar";
 import { Filter } from "./icons/Filter";
 import { SearchIcon } from "./icons/SearchIcon";
+import { Taches } from "./Taches";
 
 function MainContent() {
   const [value1, changeValue1] = useState("Today");
@@ -26,7 +27,7 @@ function MainContent() {
           <div className="select">
             <Calendar />
             <select value={value1} onChange={changeValue1}>
-            <option value="Today">Today</option>
+              <option value="Today">Today</option>
               <option value="Yesterday">Yesterday</option>
             </select>
           </div>
@@ -58,7 +59,7 @@ function MainContent() {
               <AngleRight />
             </div>
           </div>
-          <div></div>
+          <Taches />
         </div>
       </div>
     </div>

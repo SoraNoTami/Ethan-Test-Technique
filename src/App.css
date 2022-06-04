@@ -3,59 +3,87 @@
 }
 
 #navbar {
+  display: flex;
+  flex-direction: column;
   max-width: 5rem;
-  background-color: #FBFAFF;
+  height: 100%;
+  background-color: #fbfaff;
 }
 
 #main-content {
-    width: 150rem;
-    background-color: #F3F4F8;
+  width: 150rem;
+  background-color: #f3f4f8;
 }
 
 .top-content {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 h1 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-.svg {
-    width: 0.8rem;
-    margin: 0.5rem
+.angle-right {
+  width: 0.8rem;
+  margin: 0.5rem;
 }
 
 .center {
-    align-items: center;
+  align-items: center;
 }
 
 select {
-    border: 0;
+  border: 0;
 }
 
 .select {
-    display: flex;
-    align-items: baseline;
-    margin: 2rem;
-    border: solid 1px;
+  display: flex;
+  align-items: baseline;
+  margin: 2rem;
+  border: solid 1px;
 }
 
 .search {
-    border: 0;
+  border: 0;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
-    border: solid 2px;
+  display: flex;
+  align-items: center;
+  border: solid 2px;
 }
 
+.svg-navbar {
+  margin-top: 3rem;
+  max-width: 2.15rem;
+}
 
+.navbar-content {
+    margin-top: 5rem
+}
+
+.tache {
+    display: flex;
+}
+
+.tache-components {
+    margin-right: 5rem;
+}
+
+.link-comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 1rem;
+}
