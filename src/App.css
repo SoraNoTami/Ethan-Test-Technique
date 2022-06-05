@@ -65,12 +65,12 @@ select {
 
 .svg-navbar {
   margin-top: 2rem;
-  max-width: 2.15rem;
+  max-width: 1.75rem;
   padding: 1rem;
 }
 
 .svg-navbar:hover {
-  background-color: #5051F9;
+  background-color: #5051f9;
   border-radius: 10px;
 }
 
@@ -95,7 +95,7 @@ select {
 
 .tache-components2 {
   margin-right: 5rem;
-  width: 15rem;
+  width: 17rem;
 }
 
 .link-comments {
@@ -112,12 +112,13 @@ p {
   display: flex;
   margin-block: 2rem;
   align-items: center;
-  color: #5757F9;
-  background-color: #EDECFE;
+  color: #5757f9;
+  background-color: #edecfe;
   border: none;
   border-radius: 10px;
   height: 3rem;
   width: 7rem;
+  cursor: pointer;
 }
 
 .under-tasks {
@@ -127,14 +128,11 @@ p {
 
 .under-tasks p {
   display: flex;
-  width: 5rem
+  width: 5rem;
+  cursor: pointer;
 }
 
 .svg-tasks {
   width: 1rem;
   margin-right: 0.5rem;
 }
-
-
-
-

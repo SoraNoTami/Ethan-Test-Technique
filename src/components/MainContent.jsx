@@ -34,8 +34,7 @@ function MainContent() {
           <div className="select">
             <Filter />
             <select value={value2} onChange={changeValue2}>
-              <option value="Done">Done</option>
-              <option value="NotDone">NotDone</option>
+              <option value="Filters">Filters</option>
             </select>
           </div>
         </div>
