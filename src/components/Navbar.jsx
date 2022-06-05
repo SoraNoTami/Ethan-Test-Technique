@@ -1,15 +1,16 @@
-import { Board } from "./icons/Board";
-import { List } from "./icons/List";
-import { Setting } from "./icons/Setting";
-import { Stats } from "./icons/Stats";
-import { Tchat } from "./icons/Tchat";
-import { User } from "./icons/User";
+import { Board } from "./assets/icons/Board";
+import { List } from "./assets/icons/List";
+import { Setting } from "./assets/icons/Setting";
+import { Stats } from "./assets/icons/Stats";
+import { Tchat } from "./assets/icons/Tchat";
+import { User } from "./assets/icons/User";
+import Logo from "./assets/img/Logo.png";
 
 function Navbar() {
   return (
     <div id="navbar">
       <div>
-        <img />
+        <img src={Logo}/>
         <h1>OCNUM.</h1>
       </div>
       <div className="navbar-content">

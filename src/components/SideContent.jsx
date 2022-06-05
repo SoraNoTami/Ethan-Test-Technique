@@ -1,9 +1,12 @@
+import React from "react";
+import Header from "./assets/img/side-content-header.png"
+
 function SideContent() {
   return (
     <div id="side-content">
       <div>
         <div></div>
-        <img></img>
+        <img src={Header}></img>
         <h2>Website Redesign</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo

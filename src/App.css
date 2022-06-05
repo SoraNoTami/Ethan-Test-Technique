@@ -4,14 +4,16 @@
 
 #navbar {
   display: flex;
+  position: fixed;
   flex-direction: column;
-  max-width: 5rem;
+  width: 5rem;
   height: 100%;
   background-color: #fbfaff;
 }
 
 #main-content {
-  width: 150rem;
+  margin-left: 5rem;
+  width: 215rem;
   background-color: #f3f4f8;
 }
 
@@ -62,28 +64,77 @@ select {
 }
 
 .svg-navbar {
-  margin-top: 3rem;
+  margin-top: 2rem;
   max-width: 2.15rem;
+  padding: 1rem;
+}
+
+.svg-navbar:hover {
+  background-color: #5051F9;
+  border-radius: 10px;
 }
 
 .navbar-content {
-    margin-top: 5rem
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17rem;
 }
 
 .tache {
-    display: flex;
+  display: flex;
+  margin: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  justify-content: space-around;
 }
 
 .tache-components {
-    margin-right: 5rem;
+  margin-right: 5rem;
+}
+
+.tache-components2 {
+  margin-right: 5rem;
+  width: 15rem;
 }
 
 .link-comments {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
+
+.button-remider {
+  display: flex;
+  margin-block: 2rem;
+  align-items: center;
+  color: #5757F9;
+  background-color: #EDECFE;
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 7rem;
+}
+
+.under-tasks {
+  display: flex;
+  align-items: center;
+}
+
+.under-tasks p {
+  display: flex;
+  width: 5rem
+}
+
+.svg-tasks {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+
+
+

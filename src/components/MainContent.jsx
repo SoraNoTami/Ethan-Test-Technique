@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { AngleRight } from "./icons/AngleRight";
-import { Calendar } from "./icons/Calendar";
-import { Filter } from "./icons/Filter";
-import { SearchIcon } from "./icons/SearchIcon";
+import { AngleRight } from "./assets/icons/AngleRight";
+import { Calendar } from "./assets/icons/Calendar";
+import { Filter } from "./assets/icons/Filter";
+import { SearchIcon } from "./assets/icons/SearchIcon";
 import { Taches } from "./Taches";
 
 function MainContent() {
